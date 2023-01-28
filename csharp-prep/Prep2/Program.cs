@@ -1,3 +1,7 @@
+/*
+Vishnu Soranam
+1/7/2023
+*/
 using System;
 
 class Program
@@ -5,35 +9,35 @@ class Program
     static void Main(string[] args)
     {
         Console.Write("What is your grade percentage? ");
-        string answer = Console.ReadLine();
-        int percent = int.Parse(answer);
+        string vs_answer = Console.ReadLine();
+        int vs_percent = int.Parse(vs_answer);
 
-        string letter = "";
+        string vs_letter = "";
 
-        if (percent >= 90)
+        if (vs_percent >= 90)
         {
-            letter = "A";
+            vs_letter = "A";
         }
-        else if (percent >= 80)
+        else if (vs_percent >= 80)
         {
-            letter = "B";
+            vs_letter = "B";
         }
-        else if (percent >= 70)
+        else if (vs_percent >= 70)
         {
-            letter = "C";
+            vs_letter = "C";
         }
-        else if (percent >= 60)
+        else if (vs_percent >= 60)
         {
-            letter = "D";
+            vs_letter = "D";
         }
         else
         {
-            letter = "F";
+            vs_letter = "F";
         }
 
-        Console.WriteLine($"Your grade is: {letter}");
+        Console.WriteLine($"Your grade is: {vs_letter}");
         
-        if (percent >= 70)
+        if (vs_percent >= 70)
         {
             Console.WriteLine("You passed!");
         }
