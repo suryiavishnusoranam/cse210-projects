@@ -21,10 +21,10 @@ class Program
         job2._vsendYear = 2023;
 
         Resume myResume = new Resume();
-        myResume._name = "Vishnu Soranam";
+        myResume._vsname = "Vishnu Soranam";
 
-        myResume._jobs.Add(job1);
-        myResume._jobs.Add(job2);
+        myResume._vsjobs.Add(job1);
+        myResume._vsjobs.Add(job2);
 
         myResume.Display();
     }
